@@ -981,17 +981,23 @@ vertical-align: middle;
   width: 75%;
   text-align: right;
   margin-top: 45px;
+  margin-right: -28px;
 }
 
 .portfolio-work-tipe-nav li{
   display: inline-block;
   list-style-type: none;
+  width: 19%;
+  text-align: center;
+}
+
+.portfolio-work-tipe-nav:last-child li{
+
 }
 
 .portfolio-work-tipe-nav a{
   color: #ffffff;
   font-size: 16px;
-  margin-left: 30px;
 }
 
 .portfolio-work-tipe-nav a:hover{
